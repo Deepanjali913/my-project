@@ -1,4 +1,3 @@
-import React from 'react';
 import BusinessCard from '../components/BusinessCard';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
@@ -13,7 +12,6 @@ const HomePage = () => {
     { name: 'Stationary', rating: 3, image: '/images/stationary.jpg.jpg' },
     { name: 'general store', rating: 3, image: '/images/generalstore.jpg.jpg' },
   ];
-  console.log(businesses);
 
   return (
     <>

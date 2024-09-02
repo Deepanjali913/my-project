@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from "react";
 
 const ReviewForm = () => {
   const [rating, setRating] = useState(0);
@@ -15,6 +15,7 @@ const ReviewForm = () => {
 
   const handleImageChange = (e) => {
     setImage(e.target.files[0]);
+    console.log(image);
   };
 
   const handleSubmit = (e) => {
